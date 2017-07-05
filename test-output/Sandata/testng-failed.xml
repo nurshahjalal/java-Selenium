@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sandata]">
+  <listeners>
+    <listener class-name="com.sandata.core.ExtentReporterNG"/>
+  </listeners>
+  <test name="Sandata_Test_in_Chrome(failed)">
+    <parameter name="baseurl" value="http://qa-lab-web01.sandata.com/"/>
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63128_Search_Visit_Maintenance_Specific_Date_Range">
+        <methods>
+          <include name="afterClass"/>
+          <include name="Auto_V7_TC_63128_Search_Visit_Maintenance_Specific_Date_Range" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63128_Search_Visit_Maintenance_Specific_Date_Range -->
+      <class name="com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63154_Select_To_Date_Using_Calendar_Picker">
+        <methods>
+          <include name="Auto_V7_TC_63154_Select_To_Date_Using_Calendar_Picker" invocation-numbers="0"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63154_Select_To_Date_Using_Calendar_Picker -->
+      <class name="com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63147_Search_With_Invalid_To_Date_Format">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63147_Search_With_Invalid_To_Date_Format -->
+      <class name="com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63151_Search_With_Greater_From_Date_Than_To_Date">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63151_Search_With_Greater_From_Date_Than_To_Date -->
+      <class name="com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63152_Select_From_Date_Using_Calendar_Picker">
+        <methods>
+          <include name="Auto_V7_TC_63152_Select_From_Date_Using_Calendar_Picker" invocation-numbers="0"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63152_Select_From_Date_Using_Calendar_Picker -->
+      <class name="com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63168_Search_With_Invalid_Client_ID">
+        <methods>
+          <include name="Auto_V7_TC_63161_Search_Without_First_Character_Clint_ID" invocation-numbers="0"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63168_Search_With_Invalid_Client_ID -->
+      <class name="com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63131_Verify_CurentDate_is_Deafult_Date_Filter">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63131_Verify_CurentDate_is_Deafult_Date_Filter -->
+      <class name="com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63146_Search_With_Invalid_From_Date_Format">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63146_Search_With_Invalid_From_Date_Format -->
+      <class name="com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63155_Search_With_Empty_From_To_Date">
+        <methods>
+          <include name="afterClass"/>
+          <include name="Auto_V7_TC_63155_Search_With_Empty_From_To_Date" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63155_Search_With_Empty_From_To_Date -->
+      <class name="com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63161_Search_Without_First_Character_Client_ID">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63161_Search_Without_First_Character_Client_ID -->
+      <class name="com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63092_Error_With_Date_Range_Greater_Than_365_Days">
+        <methods>
+          <include name="Auto_V7_TC_63092_Error_With_Date_Range_365_Days" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63092_Error_With_Date_Range_Greater_Than_365_Days -->
+      <class name="com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63157_Search_By_First_Character_Client_ID">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="Auto_V7_TC_63157_Search_By_First_Character_Clint_ID" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63157_Search_By_First_Character_Client_ID -->
+      <class name="com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63158_Search_By_Full_Client_ID">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="Auto_V7_TC_63158_Search_By_Full_Clint_ID" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63158_Search_By_Full_Client_ID -->
+      <class name="com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63156_Search_for_0_Records">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63156_Search_for_0_Records -->
+      <class name="com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63169_Search_With_Client_Last_Name_Character">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63169_Search_With_Client_Last_Name_Character -->
+      <class name="com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63172_Search_With_Client_Exact_Last_Name">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="Auto_V7_TC_63172_Search_With_Client_Exact_Last_Name" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63172_Search_With_Client_Exact_Last_Name -->
+      <class name="com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63130_Search_Visit_Maintenance_Within_A_Day">
+        <methods>
+          <include name="Auto_V7_TC_63092_Error_With_Date_Range_365_Days" invocation-numbers="0"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.sandata.v8.functional.visitMaintenance.Auto_V7_TC_63130_Search_Visit_Maintenance_Within_A_Day -->
+    </classes>
+  </test> <!-- Sandata_Test_in_Chrome(failed) -->
+</suite> <!-- Failed suite [Sandata] -->
